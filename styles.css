@@ -1,0 +1,182 @@
+body{
+  background-image: url("images/background-image.jpg");
+
+}
+
+
+
+.navbar-back{
+  background-color:#1B2430;
+}
+.catJam{
+  height:40px;
+  width:107px;
+  position:relative;
+  left:1010px;
+
+}
+
+.hide-item{
+  opacity:0;
+
+}
+
+.reveal-item{
+  opacity:1;
+}
+
+#title{
+    opacity: 1;
+}
+
+<!-- for the profile class and for the interface class position is given as "fixed"-->
+
+.profile{
+  font-family:"Montserrat";
+  background-image:url("images/background-image.jpg");
+  opacity:1;
+  height: 750px;
+
+}
+
+.profilepic{
+  height:175px;
+  width:175px;
+  border-radius:100%;
+  position:relative;
+  left:85px;
+  top:60px;
+
+}
+
+.username{
+text-align:center;
+color: white;
+padding-top: 70px;
+}
+
+.bio{
+  text-align:center;
+  color: white;
+  display:block;
+  padding-top:20px;
+}
+
+.interface{
+  background-image:url("images/interface-image.png");
+
+  height:500px;
+  opacity: 1;
+  position:fixed;
+  top:0px;
+  z-index: 1;
+}
+
+.now-playing{
+  color:#FAF3E3;
+  padding-left:25px;
+  position:relative;
+  top:100px;
+}
+
+.song-name{
+  color:#FAF3E3;
+  padding-left:25px;
+  position:relative;
+  top:150px;
+}
+
+
+.timestamp{
+  color:#FAF3E3;
+  padding-left:25px;
+  position:relative;
+  top:250px;
+
+}
+
+.minutes{
+  display:inline;
+}
+.seconds{
+  display:inline;
+  
+}
+
+
+.track-bar{
+  padding-left:25px;
+  position:relative;
+  top:270px;
+
+}
+
+#mytrackbar{
+  width:70%;
+  cursor:pointer;
+}
+
+.media-controls{
+  position:relative;
+  top:290px;
+  left:500px;
+}
+
+.current-image{
+
+position: relative;
+left:750px;
+bottom:115px;
+
+}
+
+.list{
+  background-color:#FBC5C5;
+
+  height:80px;
+  opacity: 1;
+  position:relative;
+  top:500px;
+  z-index: -1;
+  padding:3% 4%;
+  border-style: solid;
+  border-color: #377D71;
+}
+
+
+
+#play-icon{
+  width:100%;
+}
+
+
+.song-name-text{
+display: inline;
+padding-top:10px;
+padding-bottom:10px;
+padding-left: 45px;
+padding-right:25px;
+}
+
+.duration{
+display: inline;
+padding-top:10px;
+padding-bottom:10px;
+padding-left: 45px;
+padding-right:25px;
+}
+
+.artist-name{
+display: inline;
+padding-top:10px;
+padding-bottom:10px;
+padding-left: 45px;
+padding-right:25px;
+}
+
+.songs-bar-image-banner{
+display: inline;
+border-radius:100%;
+position:relative;
+bottom:8px;
+}
